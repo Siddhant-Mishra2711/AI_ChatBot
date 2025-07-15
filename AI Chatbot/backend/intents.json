@@ -1,0 +1,30 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey there", "Good morning"],
+      "responses": ["Hi! Ask me about any stock price prediction."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
+      "responses": ["Goodbye! Come back anytime for stock insights."]
+    },
+    {
+      "tag": "stock_prediction",
+      "patterns": [
+        "What is the prediction for AAPL?",
+        "Will Tesla stock go up?",
+        "Tell me the price forecast for Microsoft",
+        "Give me the prediction for GOOG",
+        "What’s the future of NVDA?"
+      ],
+      "responses": ["Fetching prediction for {ticker}..."]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["I'm not sure how to help with that. Ask me about stock predictions!"]
+    }
+  ]
+}
