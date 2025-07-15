@@ -33,4 +33,35 @@ AI Chatbot/
 
 ---
 
-<pre lang="markdown"> --- ## 🛠️ Installation ### 🔧 Local Setup 1. **Install dependencies** ```bash pip install -r requirements.txt ``` 2. **Train the chatbot** ```bash python backend/train_model.py ``` 3. **Run the server** ```bash python backend/app.py ``` 4. **Launch the frontend** Open `frontend/index.html` in your browser. --- ### 🐳 Docker Deployment Build and run the app using Docker: ```bash docker build -t stock-chatbot . docker run -p 5000:5000 stock-chatbot ``` </pre>
+## 🛠️ Installation
+
+### 🔧 Local Setup
+
+1. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+2. **Train the chatbot**
+```bash
+python backend/train_model.py
+```
+
+3. **Run the server**
+```bash
+python backend/app.py
+```
+
+4. **Launch the frontend**
+
+Open `frontend/index.html` in your browser.
+
+---
+
+### 🐳 Docker Deployment
+
+Build and run the app using Docker:
+```bash
+docker build -t stock-chatbot .
+docker run -p 5000:5000 stock-chatbot
+```
