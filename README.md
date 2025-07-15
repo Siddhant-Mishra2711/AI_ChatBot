@@ -38,23 +38,19 @@ AI Chatbot/
 ### 🔧 Local Setup
 
 1. **Install dependencies**
-
+   
 ```bash
 pip install -r requirements.txt
 
-2. **Install dependencies**
-
-pip install -r requirements.txt
-
-3. **Train the model**
+2. **Train the model**
 
 python backend/train_model.py
 
-4.**Start the backend server**
+3. **Start the backend server**
 
 python backend/app.py
 
-5.**Open the chatbot frontend**
+4.**Open the chatbot frontend**
 
 Simply open frontend/index.html in your browser.
 
